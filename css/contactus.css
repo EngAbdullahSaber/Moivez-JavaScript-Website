@@ -1,0 +1,74 @@
+/* Start Contact Us */
+.contact-us{
+    padding: 64px 0;
+}
+.contact-us h2{    
+    text-shadow: -3px 1px black;
+    font-size: 30px;
+    color: var(--logoColor--);
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+}
+.contact-us p{
+    color: var(--mainColor--);
+    text-align: center;
+    margin: 31px 0;
+    letter-spacing: 1px;
+      
+    font-weight: 900;
+}
+.contact-us form{
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: center;
+    margin: 46px 0;justify-content: center;
+    align-items: center;
+}
+.contact-us form .form-group{
+    width: 33%;
+}
+.contact-us form .form-group .form-control {
+    box-shadow: 2px 2px #181717;
+    color: var(--mainColor--);
+    font-size: 17px;font-weight: 700;
+    background-color: #23276000;
+    background-clip: padding-box;
+    border: 2px solid #111652;
+    border-radius: 0.75rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.contact-us form .btn-primar{
+    color: var(--mainColor--);
+    font-weight: 800;
+    font-size: 19px;
+    background-color: #22254b;
+    box-shadow: 2px 2px #181717;
+    border: 1px solid #22254b;
+}
+.contact-us form .btn-primar:active {
+    color: #ccc;
+}
+/* End Contact Us */
+/* Start Media Query */
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    .contact-us form .form-group {
+        width: 85%;
+    }
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .contact-us form .form-group {
+        width: 53%;
+    }
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .contact-us form .form-group {
+        width: 33%;
+    }
+}
+/* End Media Query */

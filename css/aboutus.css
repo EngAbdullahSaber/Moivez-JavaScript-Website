@@ -1,0 +1,65 @@
+/* Start Footer */
+.about-us{
+    padding: 64px 0;
+}
+.about-us h3,
+.about-us h2{     
+    text-shadow: -3px 1px black;
+    font-size: 25px;
+    color: var(--logoColor--);
+    font-weight: 800;
+    text-align: center;
+    margin: 51px 0;text-transform: uppercase;
+}
+.about-us p{
+    color: var(--mainColor--);
+    text-align: center;
+    margin: 31px 0;
+    letter-spacing: 1px;
+    line-height: 1.9;
+    text-align: start;
+font-weight: 300;}
+.about-us p span{
+    font-weight: bold;
+}
+.about-us p:first-of-type{
+    color: var(--mainColor--);
+    text-align: center;
+    font-weight: 800;
+    margin: 31px 0;
+    letter-spacing: 2px;
+}
+/* End Footer */
+/* Start Media Query */
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    .about-us p {
+        color: var(--mainColor--);
+        text-align: center;
+        margin: 31px 0;
+        letter-spacing: 1px;
+        line-height: 1.9;
+        font-weight: 300;
+    }
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .about-us p {
+        color: var(--mainColor--);
+        text-align: center;
+        margin: 31px 0;
+        letter-spacing: 1px;
+        line-height: 1.9;
+        text-align: start;
+        font-weight: 300;
+    }
+}
+/* End Media Query */
+
+
+
+
+
+
+
+
